@@ -9,6 +9,8 @@ def premium_list(message):
     text = """
 ✨ LIST APLIKASI PREMIUM BY ALDIMEDIGITAL ✨
 
+KLIK NAMA APLIKASI DIBAWAH UNTUK MELIHAT LIST HARGA
+
 /alightmotion
 /amazonprime
 /applemusic
