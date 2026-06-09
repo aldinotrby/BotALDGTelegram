@@ -156,5 +156,58 @@ CANVA
 """
     bot.reply_to(message, text, parse_mode='Markdown')
 
+@bot.message_handler(commands=['capcut'])
+def capcut(message):
+    text = """
+CapCut Pro
+
+*Sharing*
+↳ 3U 7 Day : 14.000
+↳ 3U 1 Month : 22.000 (isi ulang tiap minggu)
+↳ 3U 1 Month : 27.000 (1 bulan full)
+
+▸ Private
+↳ 7 Day : 17.500
+↳ 1 Month : 35.000
+
+GARANSI BACKFREE ONLY!
+BACKFREE = KEMBALI TIDAK PRO
+JIKA LOGOUT DAN TIDAK BISA LOGIN = NO GARANSI (SUDAH KETENTUAN CAPCUT!!!)
+
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+
+@bot.message_handler(commands=['chatgpt'])
+def chatgpt(message):
+    text = """
+ChatGPT PLUS
+
+*Sharing*
+↳ 1 Day Sharing 8U : 4.500
+↳ 3 Day Sharing 8U : 6.500
+↳ 7 Day Sharing 8U : 9.500
+↳ 1 Month Sharing 8U : 20.000
+
+*Private*
+↳ 1 Month Indplan : 35.000
+↳ 1 Month Head : 47.000
+
+*CATATAN*
+↳ Full Garansi + Akses
+
+
+ChatGPT GO
+
+*Sharing*
+↳ 7 Days : 14.000
+↳ 1 Bulan (5U) : 22.000
+
+▸ Private
+↳ 7 Days : 25.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+
 print("Bot berjalan...")
 bot.infinity_polling()
