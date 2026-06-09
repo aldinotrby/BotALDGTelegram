@@ -56,5 +56,20 @@ def premium_list(message):
 """
     bot.reply_to(message, text)
 
+@bot.message_handler(commands=['alightmotion'])
+def peraturan_grup(message):
+    text = """
+Alight Motion
+
+*SHARING*
+↳ 1 Bulan : 3,500
+↳ 3 Bulan : 5,500
+↳ 1 Tahun : 7,500
+
+▸ Private
+↳ 1 Tahun : 9,000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
 print("Bot berjalan...")
 bot.infinity_polling()
