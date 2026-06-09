@@ -71,5 +71,62 @@ Alight Motion
 """
     bot.reply_to(message, text, parse_mode='Markdown')
 
+@bot.message_handler(commands=['amazonprime'])
+def amazonprime(message):
+    text = """
+Amazon Prime
+
+*SHARING*
+↳ 4U 1 Bulan : 8.000
+↳ 3U 1 Bulan : 9.000
+↳ 2U 1 Bulan : 10.000
+
+▸ Private
+↳ 1 Month : 13.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+@bot.message_handler(commands=['applemusic'])
+def applemusic(message):
+    text = """
+Apple Music
+
+*Sharing Premium ( Famplan invite )*
+↳ 1 Bulan : 8.000
+↳ 3 Bulan : 10.000
+
+▸ Private Premium
+↳ Head 1 Bulan : 10.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+@bot.message_handler(commands=['bstation'])
+def bstation(message):
+    text = """
+Bstation
+
+*Sharing*
+↳ 1 Month : 8.000
+↳ 3 Month : 10.000
+↳ 1 Year : 15.000
+
+▸ Private
+↳ 1 Month : 35.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+@bot.message_handler(commands=['camscanner'])
+def camscanner(message):
+    text = """
+CamScanner
+
+*Sharing*
+↳ 1 Bulan : 8.000
+↳ 1 Tahun : 15.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+
+
 print("Bot berjalan...")
 bot.infinity_polling()
