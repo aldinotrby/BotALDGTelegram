@@ -117,6 +117,23 @@ Bstation
     bot.reply_to(message, text, parse_mode='Markdown')
 
 
+@bot.message_handler(commands=['carakerjabot'])
+def carakerjabot(message):
+    text = """
+CARA KERJA BOT
+
+Ketik nama aplikasi 
+contoh : 
+
+/capcut
+/canva
+/alightmotion
+
+*WAJIB menggunakan tanda "/" supaya BOT bisa bekerja*
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+
 @bot.message_handler(commands=['camscanner'])
 def camscanner(message):
     text = """
