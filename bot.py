@@ -57,7 +57,7 @@ def premium_list(message):
     bot.reply_to(message, text)
 
 @bot.message_handler(commands=['alightmotion'])
-def peraturan_grup(message):
+def alightmotion(message):
     text = """
 Alight Motion
 
