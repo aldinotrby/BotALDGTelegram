@@ -126,7 +126,35 @@ CamScanner
 """
     bot.reply_to(message, text, parse_mode='Markdown')
 
+@bot.message_handler(commands=['canva'])
+def canva(message):
+    text = """
+CANVA
 
+*Member*
+↳ 1 Day : 500p
+↳ 1 Week : 1,500
+↳ 1 Month : 3,500
+↳ 3 Month : 5,500
+↳ 6 Month : 7,500
+↳ 1 Year : 9,500
+
+▸ Admin
+↳ 1 Month : 4,500
+↳ 2 Month : 6,500
+↳ 3 Month : 7,500
+↳ 4 Month : 8,500
+↳ 5 Month : 9,500
+↳ 6 Month : 10,500
+↳ 1 Year : 11,500
+
+▸ Head
+↳ 5.500
+
+▸ Lifetime
+↳ 15.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
 
 print("Bot berjalan...")
 bot.infinity_polling()
