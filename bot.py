@@ -123,6 +123,7 @@ CARA KERJA BOT
 
 Ketik nama aplikasi 
 contoh : 
+
 /capcut
 /canva
 /alightmotion
