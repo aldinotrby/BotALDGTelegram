@@ -9,51 +9,51 @@ def premium_list(message):
     text = """
 ✨ LIST APLIKASI PREMIUM BY ALDIMEDIGITAL ✨
 
-✧ /alightmotion
-✧ /amazonprime
-✧ /applemusic
-✧ /bstation
-✧ /carakerjabot
-✧ /camscanner
-✧ /canva
-✧ /capcut
-✧ /chatgpt
-✧ /runchyroll
-✧ /disney
-✧ /drakorid
-✧ /dramabox
-✧ /duolingo
-✧ /fizzo
-✧ /gagaoolala
-✧ /gemini
-✧ /grammarly
-✧ /grokai
-✧ /hbo
-✧ /ibispaintx
-✧ /ilovepdf
-✧ /iqiyi
-✧ /leonardoai
-✧ /lightroom
-✧ /loklok
-✧ /melolo
-✧ /microsoft365
-✧ /moviebox
-✧ /netflix
-✧ /nokos
-✧ /perplexity
-✧ reelshort
-✧ /remini
-✧ /scribd
-✧ /teleprem
-✧ /vidio
-✧ /vision
-✧ /viu
-✧ /wattpad
-✧ /wetv
-✧ /wibuku
-✧ /wink
-✧ /youtube
-✧ /zoom
+/alightmotion
+/amazonprime
+/applemusic
+/bstation
+/carakerjabot
+/camscanner
+/canva
+/capcut
+/chatgpt
+/runchyroll
+/disney
+/drakorid
+/dramabox
+/duolingo
+/fizzo
+/gagaoolala
+/gemini
+/grammarly
+/grokai
+/hbo
+/ibispaintx
+/ilovepdf
+/iqiyi
+/leonardoai
+/lightroom
+/loklok
+/melolo
+/microsoft365
+/moviebox
+/netflix
+/nokos
+/perplexity
+reelshort
+/remini
+/scribd
+/teleprem
+/vidio
+/vision
+/viu
+/wattpad
+/wetv
+/wibuku
+/wink
+/youtube
+/zoom
 """
     bot.reply_to(message, text)
 
