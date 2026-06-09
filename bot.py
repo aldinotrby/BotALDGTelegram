@@ -41,7 +41,7 @@ def premium_list(message):
 /netflix
 /nokos
 /perplexity
-reelshort
+/reelshort
 /remini
 /scribd
 /teleprem
