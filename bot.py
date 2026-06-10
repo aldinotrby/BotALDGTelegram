@@ -229,5 +229,111 @@ contoh :
 """
     bot.reply_to(message, text, parse_mode='Markdown')
 
+
+@bot.message_handler(commands=['crunchyroll'])
+def crunchyroll(message):
+    text = """
+Crunchyroll
+
+*Sharing*
+↳ 1 Bulan : 7.500
+
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+@bot.message_handler(commands=['disney'])
+def disney(message):
+    text = """
+Disney+ 
+
+*Sharing 6 User*
+↳ 1 Day : 13.500
+↳ 3 Day : 7.500
+↳ 7 Day : 18.000
+↳ 1 Month : 25.000
+
+*Sharing 10 User*
+↳ 1 Day : 3.000
+↳ 3 Day : 7.000
+↳ 7 Day : 13.000
+↳ 1 Month : 19.500
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+@bot.message_handler(commands=['drakorid'])
+def drakorid(message):
+    text = """
+Drakor ID
+
+*Sharing*
+↳ 1 Bulan : 7.500
+↳ 1 Tahun : 15.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+@bot.message_handler(commands=['dramabox'])
+def dramabox(message):
+    text = """
+DramaBox
+
+▸ Premium
+↳ 1 Month : 9.500
+↳ 3 Month : 13.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+@bot.message_handler(commands=['duolingo'])
+def duolingo(message):
+    text = """
+Duolingo
+
+*Full Garansi*
+↳ 1 Bulan : 11.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+
+
+@bot.message_handler(commands=['fizzo'])
+def fizzo(message):
+    text = """
+Fizzo
+
+*Sharing*
+↳ 1 Bulan : 7.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+
+
+@bot.message_handler(commands=['gagaolala'])
+def gagaolala(message):
+    text = """
+Gagaoolala
+
+*Sharing*
+↳ 1 Bulan : 8.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+@bot.message_handler(commands=['gemini'])
+def gemini(message):
+    text = """
+Gemini
+
+*Sharing Invite (Website)*
+↳ 1 Month : 10.000
+
+*Sharing Invite (Aplikasi)*
+↳ 1 Month : 15.000
+
+*Private*
+↳ 1 Month : 25.000
+"""
+    bot.reply_to(message, text, parse_mode='Markdown')
+
+
+
+
 print("Bot berjalan...")
 bot.infinity_polling()
