@@ -170,7 +170,7 @@ CapCut Pro
 ↳ 3U 1 Month : 22.000 (isi ulang tiap minggu)
 ↳ 3U 1 Month : 27.000 (1 bulan full)
 
-▸ Private
+*Private*
 ↳ 7 Day : 17.500
 ↳ 1 Month : 35.000
 
