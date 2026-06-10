@@ -207,7 +207,7 @@ ChatGPT GO
 ↳ 7 Days : 14.000
 ↳ 1 Bulan (5U) : 22.000
 
-▸ Private
+*Private*
 ↳ 7 Days : 25.000
 """
     bot.reply_to(message, text, parse_mode='Markdown')
